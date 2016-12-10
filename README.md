@@ -36,5 +36,13 @@ The migration versions start with 200007.
 ## Call the Model
 
 ```ruby
-dictionary_item = Unidom::Dictionary::DictionaryItem.valid_at.alive.first
+# Dimensions of the Wellness
+dictionary_code = 'WLNS'
+attributes      = { dictionary_code: dictionary_code, opened_at: Time.now }
+occupational    = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ value: 'Occupational' })
+physical        = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ value: 'Physical'     })
+social          = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ value: 'Social'       })
+intellectual    = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ value: 'Intellectual' })
+spiritual       = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ value: 'Spiritual'    })
+emotional       = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ value: 'Emotional'    })
 ```
