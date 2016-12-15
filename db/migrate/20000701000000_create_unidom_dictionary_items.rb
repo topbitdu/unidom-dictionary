@@ -5,6 +5,7 @@ class CreateUnidomDictionaryItems < ActiveRecord::Migration
     create_table :unidom_dictionary_items, id: :uuid do |t|
 
       t.column :dictionary_code, 'char(4)', null: false, default: 'C'
+      t.string :code,                       null: true,  default: nil, limit: 64
 
       t.string :value, null: false, default: '', limit: 200
 
