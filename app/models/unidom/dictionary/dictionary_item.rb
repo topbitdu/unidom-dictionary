@@ -6,6 +6,7 @@ class Unidom::Dictionary::DictionaryItem < Unidom::Dictionary::ApplicationRecord
 
   include Unidom::Common::Concerns::ModelExtension
 
-  validates :value, presence: true, length: { in: 2..self.columns_hash['value'].limit }
+  validates :code,  allow_blank: true, length: { in: 1..self.columns_hash['code'].limit  }
+  validates :value, presence:    true, length: { in: 2..self.columns_hash['value'].limit }
 
 end
