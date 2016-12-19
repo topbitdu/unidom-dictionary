@@ -39,10 +39,11 @@ The migration versions start with 200007.
 # Dimensions of the Wellness
 dictionary_code = 'WLNS'
 attributes      = { dictionary_code: dictionary_code, opened_at: Time.now }
-occupational    = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ value: 'Occupational' })
-physical        = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ value: 'Physical'     })
-social          = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ value: 'Social'       })
-intellectual    = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ value: 'Intellectual' })
-spiritual       = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ value: 'Spiritual'    })
-emotional       = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ value: 'Emotional'    })
+occupational    = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ code: 'OCPT', value: 'Occupational' })
+physical        = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ code: 'PHSC', value: 'Physical'     })
+social          = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ code: 'SOCL', value: 'Social'       })
+intellectual    = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ code: 'INTL', value: 'Intellectual' })
+spiritual       = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ code: 'SPRT', value: 'Spiritual'    })
+emotional       = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ code: 'EMTN', value: 'Emotional'    })
+# The #code attribtue could be nil. 
 ```
