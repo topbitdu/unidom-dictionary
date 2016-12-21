@@ -4,4 +4,4 @@
 1. Dictionary Item model & migration (20000701000000)
 
 ## v0.2
-1. Improve the Dictionary Item migration to add the optional #code field
+1. Improve the Dictionary Item migration to add the optional #``code`` field
