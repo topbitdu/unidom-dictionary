@@ -1,6 +1,8 @@
 # Unidom Dictionary 字典领域模型引擎
 
+[![Documentation](http://img.shields.io/badge/docs-rdoc.info-blue.svg)](http://www.rubydoc.info/gems/unidom-dictionary/frames)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](http://opensource.org/licenses/MIT)
+
 [![Gem Version](https://badge.fury.io/rb/unidom-dictionary.svg)](https://badge.fury.io/rb/unidom-dictionary)
 [![Dependency Status](https://gemnasium.com/badges/github.com/topbitdu/unidom-dictionary.svg)](https://gemnasium.com/github.com/topbitdu/unidom-dictionary)
 
@@ -45,5 +47,5 @@ social          = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ 
 intellectual    = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ code: 'INTL', value: 'Intellectual' })
 spiritual       = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ code: 'SPRT', value: 'Spiritual'    })
 emotional       = Unidom::Dictionary::DictionaryItem.create! attributes.merge({ code: 'EMTN', value: 'Emotional'    })
-# The #code attribtue could be nil. 
+# The #code attribtue could be nil.
 ```
