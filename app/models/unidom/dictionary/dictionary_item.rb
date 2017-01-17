@@ -1,3 +1,4 @@
+##
 # Dictionary Item 是字典项。
 
 class Unidom::Dictionary::DictionaryItem < Unidom::Dictionary::ApplicationRecord
