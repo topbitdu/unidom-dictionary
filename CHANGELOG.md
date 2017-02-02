@@ -7,7 +7,7 @@
 1. Improved the Dictionary Item migration to add the optional #``code`` field
 
 ## v0.2.1
-1. Improve the Ruby Gem Specification to depend on [unidom-common](https://github.com/topbitdu/unidom-common) v1.8
+1. Improved the Ruby Gem Specification to depend on [unidom-common](https://github.com/topbitdu/unidom-common) v1.8
 2. Improve the Engine class to include the Engine Extension concern
 
 ## v0.2.2
