@@ -20,5 +20,5 @@
 3. Validators RSpec examples manifest
 
 ## v0.3.1
-1. Improve the Dictionary Item spec for the validations on the #``dictionary_code`` attribute, the #code attribute, and the #value attribute
+1. Improve the Dictionary Item spec for the validations on the #``dictionary_code`` attribute, the #``code`` attribute, and the #value attribute
 2. Improve the Dictionary Item model to remove the validations on the #code attribute
