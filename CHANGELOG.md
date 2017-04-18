@@ -24,5 +24,5 @@
 2. Improved the Dictionary Item spec for the validations on the #``dictionary_code`` attribute, the #``code`` attribute, and the #``value`` attribute
 
 ## v0.3.2
-1. Improve the Dictionary Item spec for the validations on the #dictionary_code attribute, the #code attribute, and the #value attribute
+1. Improved the Dictionary Item spec for the validations on the #dictionary_code attribute, the #code attribute, and the #value attribute
 2. RSpec shared examples manifest
