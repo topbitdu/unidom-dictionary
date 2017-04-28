@@ -29,4 +29,4 @@
 
 ## v0.3.3
 1. Improve the Ruby Gem Specification to depend on unidom-common v1.10
-2. Improve the Post Fulfillment migration for the #opened_at column, & the #closed_at column
+2. Improve the Dictionary Item migration for the #opened_at column, & the #closed_at column
