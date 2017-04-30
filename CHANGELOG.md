@@ -26,3 +26,7 @@
 ## v0.3.2
 1. Improved the Dictionary Item spec for the validations on the #``dictionary_code`` attribute, the #``code`` attribute, and the #``value`` attribute
 2. RSpec shared examples manifest
+
+## v0.3.3
+1. Improve the Ruby Gem Specification to depend on unidom-common v1.10
+2. Improve the Dictionary Item migration for the #opened_at column, & the #closed_at column
